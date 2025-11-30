@@ -11,7 +11,7 @@ const Photos = () => {
   return (
     <>
         <div id="window-header">
-            <WindowControls windowType="photos" />
+            <WindowControls target="photos" />
 
             <div className="w-full flex justify-end items-center gap-3 text-gray-500">
                 <Mail className="icon" />
