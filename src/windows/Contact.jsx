@@ -15,7 +15,16 @@ const Contact = () => {
 
             <h3>Let's Connect</h3>
             <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
-            <p>obenahans@gmail.com</p>
+            <p>
+                <span className="flex items-center gap-2">
+                    <img src="/icons/envelope.svg" alt="Email" className="size-5" />
+                    <a href="mailto:obenahans@gmail.com">obenahans@gmail.com</a>
+                </span>
+                <span className="flex items-center gap-2">
+                    <img src="/icons/phone.svg" alt="Phone" className="size-5" />
+                    <a href="tel:+639457287481">+639457287481</a>
+                </span>
+            </p>
 
             <ul>
                 {socials.map(({ id, bg, link, icon, text }) => (
